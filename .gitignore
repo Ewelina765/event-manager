@@ -1,0 +1,30 @@
+# Pliki zależności
+node_modules/
+
+# Logi
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Pliki kompilacji
+dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# Pliki środowiska
+.env
+.env.*
+
+# Pliki IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Inne pliki
+.DS_Store
+Thumbs.db
