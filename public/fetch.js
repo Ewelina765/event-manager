@@ -12,3 +12,5 @@ fetch(`https://api.github.com/users/${userName}/repos?direction=${direction}`)
     });
   })
   .catch((error) => console.error("Error fetching repos:", error));
+
+  //show repost on github pages https://ewelina765.github.io/event-manager/
